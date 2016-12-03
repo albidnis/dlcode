@@ -1,4 +1,4 @@
-$(document).ready(function(){document.title='PM17';if($('.nav.pull-right li a:contains("Register")').length>0){if(document.URL.toLowerCase().indexOf("daddyleagues.com/PM16/coaches")>=0){$('.data-table1').remove();}}
+$(document).ready(function(){document.title='PM17';if($('.nav.pull-right li a:contains("Register")').length>0){if(document.URL.toLowerCase().indexOf("daddyleagues.com/t220r/coaches")>=0){$('.data-table1').remove();}}
 $('.maincontent').addClass('clearfix');
 
 $('a>span:contains("ari")').replaceWith('<img src="http://i.nflcdn.com/static/site/6.9/img/logos/teams-gloss-81x54/ari.png" width="35" height="25"" class="scoreboard"> ARI</span>');
@@ -117,7 +117,7 @@ $('.data-table1 td:contains("Explorers")').prepend('<img src="http://i1178.photo
             if (c.stream == null) {
                 user.remove();
                 if ( ! $('#twitchList li').length ){
-                   $('#twitchList').html('<li class="online">No PM16 games are currently being broadcasted...a link with each team logo will appear when a user is broadcasting</li>');
+                   $('#twitchList').html('<li class="online">No t220r games are currently being broadcasted...a link with each team logo will appear when a user is broadcasting</li>');
                 }   
             } else {
                 user.addClass("online");
@@ -161,38 +161,38 @@ $('.data-table1 td:contains("Explorers")').prepend('<img src="http://i1178.photo
 	$('.maincontent>h1:contains("Washington Redskins")').replaceWith('<img src="http://i1178.photobucket.com/albums/x364/garza21lions/was_zpsaf9zaual.png" class="subheader" />');
 	$('.maincontent>h1:contains("Columbus Explorers")').replaceWith('<img src="http://i1178.photobucket.com/albums/x364/garza21lions/Heavy%20Hitters/explorers-logo6_zpswsxuqobf.png" class="subheader" />');
 
-$('.no>a:contains("New Orleans Saints")').replaceWith('<a href="http://daddyleagues.com/PM16/team/no"> N.O.</a>');
-$('.nyj>a:contains("New York Jets")').replaceWith('<a href="http://daddyleagues.com/PM16/team/nyj"> NYJ</a>');
-$('.mia>a:contains("Miami Dolphins")').replaceWith('<a href="http://daddyleagues.com/PM16/team/mia"> MIA</a>');
-$('.cle>a:contains("Cleveland Browns")').replaceWith('<a href="http://daddyleagues.com/PM16/team/cle"> CLE</a>');
-$('.cin>a:contains("Cincinnati Bengals")').replaceWith('<a href="http://daddyleagues.com/PM16/team/cin"> CIN</a>');
-$('.bal>a:contains("Baltimore Ravens")').replaceWith('<a href="http://daddyleagues.com/PM16/team/bal">BAL</a>');
-$('.ten>a:contains("Tennessee Titans")').replaceWith('<a href="http://daddyleagues.com/PM16/team/ten"> TENN</a>');
-$('.ind>a:contains("Indianapolis Colts")').replaceWith('<a href="http://daddyleagues.com/PM16/team/ind"> IND</a>');
-$('.hou>a:contains("Houston Texans")').replaceWith('<a href="http://daddyleagues.com/PM16/team/hou"> HOU</a>');
-$('.oak>a:contains("Oakland Raiders")').replaceWith('<a href="http://daddyleagues.com/PM16/team/oak"> OAK</a>');
-$('.den>a:contains("Denver Broncos")').replaceWith('<a href="http://daddyleagues.com/PM16/team/den">DEN</a>');
-$('.kc>a:contains("Kansas City Chiefs")').replaceWith('<a href="http://daddyleagues.com/PM16/team/kc"> KC</a>');
-$('.dal>a:contains("Dallas Cowboys")').replaceWith('<a href="http://daddyleagues.com/PM16/team/dal"> DAL</a>');
-$('.nyg>a:contains("New York Giants")').replaceWith('<a href="http://daddyleagues.com/PM16/team/nyg"> NYG</a>');
-$('.det>a:contains("Detroit Lions")').replaceWith('<a href="http://daddyleagues.com/PM16/team/det"> DET</a>');
-$('.gb>a:contains("Green Bay Packers")').replaceWith('<a href="http://daddyleagues.com/PM16/team/GB"> GB</a>');
-$('.min>a:contains("Minnesota Vikings")').replaceWith('<a href="http://daddyleagues.com/PM16/team/min">MIN</a>');
-$('.chi>a:contains("Chicago Bears")').replaceWith('<a href="http://daddyleagues.com/PM16/team/chi"> CHI</a>');
-$('.car>a:contains("Carolina Panthers")').replaceWith('<a href="http://daddyleagues.com/PM16/team/car"> CAR</a>');
-$('.atl>a:contains("Atlanta Falcons")').replaceWith('<a href="http://daddyleagues.com/PM16/team/atl"> ATL</a>');
-$('.stl>a:contains("Los Angeles Rams")').replaceWith('<a href="http://daddyleagues.com/PM16/team/stl"> LA</a>');
-$('.sea>a:contains("Seattle Seahawks")').replaceWith('<a href="http://daddyleagues.com/PM16/team/sea"> SEA</a>');
-$('.arz>a:contains("Arizona Cardinals")').replaceWith('<a href="http://daddyleagues.com/PM16/team/ari"> ARI</a>');
-$('.buf>a:contains("Buffalo Bills")').replaceWith('<a href="http://daddyleagues.com/PM16/team/buf"> BUF</a>');
-$('.pit>a:contains("Pittsburgh Steelers")').replaceWith('<a href="http://daddyleagues.com/PM16/team/pit"> PIT</a>');
-$('.sf>a:contains("San Francisco 49ers")').replaceWith('<a href="http://daddyleagues.com/PM16/team/sf"> SF</a>');
-$('.was>a:contains("Washington Redskins")').replaceWith('<a href="http://daddyleagues.com/PM16/team/was"> WAS</a>');
-$('.sd>a:contains("San Diego Chargers")').replaceWith('<a href="http://daddyleagues.com/PM16/team/sd"> SD</a>');
-$('.jac>a:contains("Jacksonville Jaguars")').replaceWith('<a href="http://daddyleagues.com/PM16/team/jac"> JAC</a>');
-$('.ne>a:contains("New England Patriots")').replaceWith('<a href="http://daddyleagues.com/PM16/team/ne"> NE</a>');
-$('.tb>a:contains("Tampa Bay Buccaneers")').replaceWith('<a href="http://daddyleagues.com/PM16/team/tb"> TB</a>');
-$('.phi>a:contains("Philadelphia Eagles")').replaceWith('<a href="http://daddyleagues.com/PM16/team/phi"> PHI</a>');
+$('.no>a:contains("New Orleans Saints")').replaceWith('<a href="http://daddyleagues.com/t220r/team/no"> N.O.</a>');
+$('.nyj>a:contains("New York Jets")').replaceWith('<a href="http://daddyleagues.com/t220r/team/nyj"> NYJ</a>');
+$('.mia>a:contains("Miami Dolphins")').replaceWith('<a href="http://daddyleagues.com/t220r/team/mia"> MIA</a>');
+$('.cle>a:contains("Cleveland Browns")').replaceWith('<a href="http://daddyleagues.com/t220r/team/cle"> CLE</a>');
+$('.cin>a:contains("Cincinnati Bengals")').replaceWith('<a href="http://daddyleagues.com/t220r/team/cin"> CIN</a>');
+$('.bal>a:contains("Baltimore Ravens")').replaceWith('<a href="http://daddyleagues.com/t220r/team/bal">BAL</a>');
+$('.ten>a:contains("Tennessee Titans")').replaceWith('<a href="http://daddyleagues.com/t220r/team/ten"> TENN</a>');
+$('.ind>a:contains("Indianapolis Colts")').replaceWith('<a href="http://daddyleagues.com/t220r/team/ind"> IND</a>');
+$('.hou>a:contains("Houston Texans")').replaceWith('<a href="http://daddyleagues.com/t220r/team/hou"> HOU</a>');
+$('.oak>a:contains("Oakland Raiders")').replaceWith('<a href="http://daddyleagues.com/t220r/team/oak"> OAK</a>');
+$('.den>a:contains("Denver Broncos")').replaceWith('<a href="http://daddyleagues.com/t220r/team/den">DEN</a>');
+$('.kc>a:contains("Kansas City Chiefs")').replaceWith('<a href="http://daddyleagues.com/t220r/team/kc"> KC</a>');
+$('.dal>a:contains("Dallas Cowboys")').replaceWith('<a href="http://daddyleagues.com/t220r/team/dal"> DAL</a>');
+$('.nyg>a:contains("New York Giants")').replaceWith('<a href="http://daddyleagues.com/t220r/team/nyg"> NYG</a>');
+$('.det>a:contains("Detroit Lions")').replaceWith('<a href="http://daddyleagues.com/t220r/team/det"> DET</a>');
+$('.gb>a:contains("Green Bay Packers")').replaceWith('<a href="http://daddyleagues.com/t220r/team/GB"> GB</a>');
+$('.min>a:contains("Minnesota Vikings")').replaceWith('<a href="http://daddyleagues.com/t220r/team/min">MIN</a>');
+$('.chi>a:contains("Chicago Bears")').replaceWith('<a href="http://daddyleagues.com/t220r/team/chi"> CHI</a>');
+$('.car>a:contains("Carolina Panthers")').replaceWith('<a href="http://daddyleagues.com/t220r/team/car"> CAR</a>');
+$('.atl>a:contains("Atlanta Falcons")').replaceWith('<a href="http://daddyleagues.com/t220r/team/atl"> ATL</a>');
+$('.stl>a:contains("Los Angeles Rams")').replaceWith('<a href="http://daddyleagues.com/t220r/team/stl"> LA</a>');
+$('.sea>a:contains("Seattle Seahawks")').replaceWith('<a href="http://daddyleagues.com/t220r/team/sea"> SEA</a>');
+$('.arz>a:contains("Arizona Cardinals")').replaceWith('<a href="http://daddyleagues.com/t220r/team/ari"> ARI</a>');
+$('.buf>a:contains("Buffalo Bills")').replaceWith('<a href="http://daddyleagues.com/t220r/team/buf"> BUF</a>');
+$('.pit>a:contains("Pittsburgh Steelers")').replaceWith('<a href="http://daddyleagues.com/t220r/team/pit"> PIT</a>');
+$('.sf>a:contains("San Francisco 49ers")').replaceWith('<a href="http://daddyleagues.com/t220r/team/sf"> SF</a>');
+$('.was>a:contains("Washington Redskins")').replaceWith('<a href="http://daddyleagues.com/t220r/team/was"> WAS</a>');
+$('.sd>a:contains("San Diego Chargers")').replaceWith('<a href="http://daddyleagues.com/t220r/team/sd"> SD</a>');
+$('.jac>a:contains("Jacksonville Jaguars")').replaceWith('<a href="http://daddyleagues.com/t220r/team/jac"> JAC</a>');
+$('.ne>a:contains("New England Patriots")').replaceWith('<a href="http://daddyleagues.com/t220r/team/ne"> NE</a>');
+$('.tb>a:contains("Tampa Bay Buccaneers")').replaceWith('<a href="http://daddyleagues.com/t220r/team/tb"> TB</a>');
+$('.phi>a:contains("Philadelphia Eagles")').replaceWith('<a href="http://daddyleagues.com/t220r/team/phi"> PHI</a>');
 
 
 
