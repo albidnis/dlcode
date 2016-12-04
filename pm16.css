@@ -4414,9 +4414,9 @@ b3 {      position: relative;
 }
 /***header***/
 span.title {  
-    FONT-SIZE: 50PX;
+    FONT-SIZE: 75PX;
     padding-top: 0px;
-    padding-right: 12px;
+    padding-right: 40px;
     position: absolute;
     top: -21px;
     font-style: italic;
