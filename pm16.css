@@ -4476,7 +4476,8 @@ span.bottomtext {
     border-bottom: solid 3px white;
 }
 .acc-content {
-      margin-bottom: 39px;
+    margin-top: 39px;
+    margin-bottom: 39px;
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
