@@ -1,4 +1,4 @@
-$(document).ready(function(){document.title='PM17';if($('.nav.pull-right li a:contains("Register")').length>0){if(document.URL.toLowerCase().indexOf("daddyleagues.com/t220r/coaches")>=0){$('.data-table1').remove();}}
+$(document).ready(function(){document.title='T220R';if($('.nav.pull-right li a:contains("Register")').length>0){if(document.URL.toLowerCase().indexOf("daddyleagues.com/t220r/coaches")>=0){$('.data-table1').remove();}}
 $('.maincontent').addClass('clearfix');
 
 $('a>span:contains("ari")').replaceWith('<img src="http://i.nflcdn.com/static/site/6.9/img/logos/teams-gloss-81x54/ari.png" width="35" height="25"" class="scoreboard"> ARI</span>');
